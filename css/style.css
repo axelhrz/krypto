@@ -1,0 +1,141 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(to left bottom, #f4b2f5, #daa8ef, #bf9ee8, #a394e0, #858bd6, #6e7cc2, #586dae, #425f9a, #314979, #20335a, #10203d, #010922);
+}
+
+.navbar ul {
+    gap: 50px;
+    align-self: center;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar li:hover a {
+    text-decoration: underline;
+}
+
+.first_sec .content {
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.first_sec .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.first_sec .text h1 {
+    color: white;
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.first_sec .text p {
+    color: white;
+    margin-top: -25px;
+    font-size: 23px;
+}
+
+.second_sec {
+    margin-top: 10%;
+}
+
+.second_sec .container {
+    padding: 25px 0 25px 0;
+    border-radius: 78px;
+    width: 80vw;
+    margin: auto;
+    background-color: #010922ef;
+}
+
+.second_sec .container .object {
+    margin-left: 50px;
+    display: flex;
+    gap: 150px;
+}
+
+.object .text {
+    align-self: center;
+    color: white;
+}
+
+.object .text h1 {
+    font-size: 38px;
+    color: #F0BBF9;
+}
+
+.third_sec {
+    margin-top: 10%;
+}
+
+.third_sec .container {
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    border-radius: 78px;
+    width: 80vw;
+    margin: auto;
+    background-color: #010922ef;
+}
+
+.card {
+    color: white;
+    text-align: center;
+}
+
+.card h1 {
+    text-transform: uppercase;
+    color: #F0BBF9;
+    font-weight: 800;
+}
+
+.card h5 {
+    color: #F0BBF9;
+    margin-top: -15px;
+    font-weight: 400;
+}
+
+.card p {
+    margin: -15px 15px 15px 15px;
+    font-weight: 400;
+}
+
+h2 {
+    margin: 5% auto 15% auto;
+    width: 70%;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.footer .container li ul a {
+    margin-left: -35px;
+    color: white;
+}
+
+.footer h4 {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+}
