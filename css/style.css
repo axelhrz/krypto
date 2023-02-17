@@ -69,6 +69,21 @@ body {
     gap: 150px;
 }
 
+@media only screen and (max-width: 950px) {
+    .second_sec .container .object {
+        flex-direction: column;
+        margin: auto;
+        width: 50%;
+        gap: 0;
+    }
+    .object .text {
+        text-align: center;
+    }
+    .object img {
+        width: 100%;
+    }
+}
+
 .object .text {
     align-self: center;
     color: white;
@@ -90,6 +105,18 @@ body {
     width: 80vw;
     margin: auto;
     background-color: #010922ef;
+}
+
+@media only screen and (max-width: 600px) {
+    .third_sec .container {
+        flex-direction: column;
+    }
+    .first_sec img {
+        display: none;
+    }
+    .navbar ul {
+        display: none;
+    }
 }
 
 .card {
